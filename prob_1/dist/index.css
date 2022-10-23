@@ -1,0 +1,176 @@
+body {
+  background-color: #f0f0f0;
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  align-items: center;
+  justify-content: center;
+  height: 97vh;
+}
+
+main {
+  background-color: #0d1323;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 45%;
+  width: 45%;
+  padding: 8%;
+}
+
+p {
+  font-size: 0.8em;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+/*================================================ USER SECTION ================================================*/
+.user_section {
+  background-color: #1d204b;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 24%;
+}
+
+.blue_container {
+  background-color: #5746ea;
+  border-radius: 10px;
+  color: #f0f0f0;
+  height: 65%;
+  padding: 12%;
+}
+
+.white_container {
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8vh;
+  width: 8vh;
+  margin-bottom: 3.2vh;
+}
+.user_img {
+  border-radius: 50%;
+  max-height: 7.5vh;
+  overflow: hidden;
+}
+
+p.user_name {
+  font-size: 2rem;
+}
+
+.nav_bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 35%;
+}
+button.option {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.95em;
+  text-align: left;
+  margin: 0;
+  margin-bottom: 2.8%;
+  margin-left: 12%;
+  margin-top: 2.8%;
+}
+button.selected {
+  color: #f0f0f0;
+}
+button.unselected {
+  color: #8385d4;
+}
+
+/*=============================================== REPORTS SECTION ==============================================*/
+.time_reports_section {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+  width: 73.5%;
+}
+
+/*=================================================== REPORT ===================================================*/
+.report {
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+  height: 47%;
+  width: 31%;
+}
+.work {
+  background-color: #ff8b64;
+  background-image: url('../src/images/work.svg');
+}
+.play {
+  background-color: #56c2e5;
+  background-image: url('../src/images/play.svg');
+}
+.study {
+  background-color: #ff5e7d;
+  background-image: url('../src/images/study.svg');
+}
+.exercise {
+  background-color: #4bcf83;
+  background-image: url('../src/images/exercise.svg');
+}
+.social {
+  background-color: #7235d1;
+  background-image: url('../src/images/social.svg');
+}
+.self_care {
+  background-color: #f1c75b;
+  background-image: url('../src/images/self_care.svg');
+}
+
+.report_body {
+  background-color: #1d204b;
+  border-radius: 10px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80%;
+  width: 100%;
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.report_headers {
+  display: flex;
+  font-size: 1em;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 12%;
+}
+.report_options_menu {
+  background: none;
+  border: none;
+  cursor: pointer;
+  height: 1.1vw;
+}
+.more_options_svg {
+  fill: red;
+  margin-top: -20%;
+  margin-bottom: -20%;
+  max-height: 140%;
+}
+
+.current_time {
+  font-size: 3em;
+}
+
+.previous_time {
+  color: #8385d4;
+  font-size: 0.84em;
+  margin-bottom: 13%;
+  margin-top: 0;
+}
+/*=================================================== ====== ===================================================*/
