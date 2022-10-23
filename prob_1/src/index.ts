@@ -69,7 +69,7 @@ const createReportSection = (el: reportObject) => {
 
     const moreBttnSvg = document.createElement('img');
     moreBttnSvg.className = 'more_options_svg';
-    moreBttnSvg.src = './images/more_horiz.svg';
+    moreBttnSvg.src = '../src/images/more_horiz.svg';
     moreBttnSvg.alt = 'More options.';
     moreBttn.appendChild(moreBttnSvg);
 
