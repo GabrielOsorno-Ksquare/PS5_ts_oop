@@ -105,27 +105,27 @@ button.unselected {
 }
 .work {
   background-color: #ff8b64;
-  background-image: url('./images/work.svg');
+  background-image: url('../src/images/work.svg');
 }
 .play {
   background-color: #56c2e5;
-  background-image: url('./images/play.svg');
+  background-image: url('../src/images/play.svg');
 }
 .study {
   background-color: #ff5e7d;
-  background-image: url('./images/study.svg');
+  background-image: url('../src/images/study.svg');
 }
 .exercise {
   background-color: #4bcf83;
-  background-image: url('./images/exercise.svg');
+  background-image: url('../src/images/exercise.svg');
 }
 .social {
   background-color: #7235d1;
-  background-image: url('./images/social.svg');
+  background-image: url('../src/images/social.svg');
 }
 .self_care {
   background-color: #f1c75b;
-  background-image: url('./images/self_care.svg');
+  background-image: url('../src/images/self_care.svg');
 }
 
 .report_body {

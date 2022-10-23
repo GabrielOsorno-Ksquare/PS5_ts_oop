@@ -50,7 +50,7 @@ const createReportSection = (el) => {
         reportHeadersDiv.appendChild(moreBttn);
         const moreBttnSvg = document.createElement('img');
         moreBttnSvg.className = 'more_options_svg';
-        moreBttnSvg.src = './images/more_horiz.svg';
+        moreBttnSvg.src = '../src/images/more_horiz.svg';
         moreBttnSvg.alt = 'More options.';
         moreBttn.appendChild(moreBttnSvg);
         /* Creating the div that will contain the actual hour report for both current and previous Day/Week/Month */
