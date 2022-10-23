@@ -1,0 +1,22 @@
+{
+  "name": "ps5_ts_oop",
+  "version": "1.0.0",
+  "description": "Problem Set #4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielOsorno-Ksquare/PS5_ts_oop.git"
+  },
+  "author": "Gabriel Osorno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielOsorno-Ksquare/PS5_ts_oop/issues"
+  },
+  "homepage": "https://github.com/GabrielOsorno-Ksquare/PS5_ts_oop#readme",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
